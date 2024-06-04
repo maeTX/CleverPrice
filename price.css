@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'WiGuru';
+    src: url(font/wiguru-13.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Clock';
+    src: url(font/digital_counter_7.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Clock Italic';
+    src: url(font/digital_counter_7_italic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'ClockBomb';
+    src: url(font/TickingTimebombBb.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'ClockBombIt';
+    src: url(font/TickingTimebombBbItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+body{
+    width: 1728px;
+    height: 1080px;
+    background: url("image/background.jpg") no-repeat;
+    background-size: 2110px 1080px;
+    font-family: "WiGuru", sans-serif;
+
+
+}
+
+.nickname{
+    text-align: center;
+}
+.nameClever{
+    height: 121px;
+}
+.main{
+    padding-right: 10em;
+    padding-left: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.units{
+    border: 5px outset orangered;
+    background: url("image/background-units.png");
+    width: 210px;
+    height: 210px;
+    background-size: 210px 210px;
+    text-align: center;
+}
+.unit{
+    width: 100%;
+    height: 100%;
+}
+.price-unit{
+    font-size: 62px;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black,
+    2px 2px 0 black,
+    3px 3px 0 black,
+    4px 4px 0 black,
+    5px 5px 0 black,
+    6px 6px 0 orangered;
+    -webkit-text-stroke: 2px black;
+}
+.price{
+    height: 24px;
+    position: relative;
+    left: 0;
+    bottom: 65px;
+}
+#id_clock{
+    position: relative;
+    top: 65px;
+    font-size: 65px;
+    font-family: "ClockBomb", sans-serif;
+    color: orangered;
+    -webkit-text-stroke: 0.5px black;
+}
+
+
+
+
