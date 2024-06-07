@@ -8,7 +8,7 @@
     font-family: 'WiGuru';
     src: url(font/wiguru-13.ttf) format('truetype');
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
 }
 @font-face{
     font-family: 'Clock';
@@ -93,10 +93,32 @@ body{
     top: 65px;
     font-size: 65px;
     font-family: "ClockBomb", sans-serif;
-    color: #71706e;
-    -webkit-text-stroke: 0.5px black;
+    color: darkviolet;
+    -webkit-text-stroke: 0.5px crimson;
 }
-
-
-
+.FixW{
+    width: 70%;
+}
+.FixWHM{
+    width: 70%;
+    height: 90%;
+    margin-top: 20px;
+}
+.sptv{
+    width: 85%;
+    height: 90%;
+    margin-top: 20px;
+}
+.speakD{
+    width: 85%;
+    height: 90%;
+    margin-top: 20px;
+}
+.DJ{
+    height: 85%;
+    margin-top: 30px;
+}
+.mechB{
+    width: 85%;
+}
 
