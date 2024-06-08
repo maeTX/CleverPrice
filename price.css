@@ -36,9 +36,9 @@
 }
 body{
     width: 1728px;
-    height: 1080px;
+    height: 1085px;
     background: url("image/background.jpg") no-repeat;
-    background-size: 2110px 1080px;
+    background-size: 2110px 1085px;
     font-family: "WiGuru", sans-serif;
 
 
@@ -51,8 +51,8 @@ body{
     height: 121px;
 }
 .main{
-    padding-right: 10em;
-    padding-left: 10em;
+    padding-right: 8em;
+    padding-left: 8em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,9 +60,9 @@ body{
 .units{
     border: 5px outset orangered;
     background: url("image/background-units.png");
-    width: 210px;
-    height: 210px;
-    background-size: 210px 210px;
+    width: 240px;
+    height: 240px;
+    background-size: 240px 240px;
     text-align: center;
 }
 .unit{
@@ -70,7 +70,7 @@ body{
     height: 100%;
 }
 .price-unit{
-    font-size: 62px;
+    font-size: 78px;
     color: #ADD8E6;
     text-align: center;
     font-weight: bold;
@@ -86,12 +86,12 @@ body{
     height: 24px;
     position: relative;
     left: 0;
-    bottom: 65px;
+    bottom: 80px;
 }
 #id_clock{
     position: relative;
-    top: 65px;
-    font-size: 65px;
+    top: 85px;
+    font-size: 85px;
     font-family: "ClockBomb", sans-serif;
     color: darkviolet;
     -webkit-text-stroke: 0.5px crimson;
@@ -102,7 +102,7 @@ body{
 .FixWHM{
     width: 70%;
     height: 90%;
-    margin-top: 20px;
+    margin-top: 23px;
 }
 .sptv{
     width: 85%;
@@ -121,4 +121,9 @@ body{
 .mechB{
     width: 85%;
 }
-
+.oldG{
+    width: 80%;
+}
+.Ded{
+    width: 80%;
+}
