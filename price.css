@@ -34,6 +34,24 @@
     font-style: italic;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'Gothland';
+    src: url(font/Gothland.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'CyrillicCompressed';
+    src: url(font/CyrillicCompressed.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'FuturisExtraC';
+    src: url(font/FuturisExtraC.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
 body{
     width: 1728px;
     height: 1085px;
@@ -48,7 +66,7 @@ body{
     text-align: center;
 }
 .nameClever{
-    height: 121px;
+    height: 119px;
 }
 .main{
     padding-right: 8em;
@@ -70,7 +88,7 @@ body{
     height: 100%;
 }
 .price-unit{
-    font-size: 78px;
+    font-size: 62px;
     color: #ADD8E6;
     text-align: center;
     font-weight: bold;
@@ -81,12 +99,13 @@ body{
     5px 5px 0 black,
     6px 6px 0 #ADD8E6;
     -webkit-text-stroke: 2px black;
+    font-family: 'CyrillicCompressed' ;
 }
 .price{
     height: 24px;
     position: relative;
     left: 0;
-    bottom: 80px;
+    bottom: 70px;
 }
 #id_clock{
     position: relative;
@@ -116,7 +135,7 @@ body{
 }
 .DJ{
     height: 85%;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 .mechB{
     width: 85%;
