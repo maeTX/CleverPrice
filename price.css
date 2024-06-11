@@ -52,14 +52,17 @@
     font-style: normal;
     font-weight: bold;
 }
+
 body{
     width: 1728px;
     height: 1080px;
     background: url("image/background.jpg") no-repeat;
     background-size: 2110px 1080px;
     font-family: "WiGuru", sans-serif;
-
-
+}
+header{
+    max-height: 110px;
+    max-width: 1700px;
 }
 
 .nickname{
@@ -109,11 +112,13 @@ body{
 }
 #id_clock{
     position: relative;
-    top: 85px;
+    left: 1220px;
+    bottom: 90px;
     font-size: 80px;
     font-family: "ClockBomb", sans-serif;
-    color: darkviolet;
-    -webkit-text-stroke: 0.5px crimson;
+    color: black;
+    -webkit-text-stroke: 5px #fff59d;
+    max-width: 100px;
 }
 .FixW{
     width: 70%;
