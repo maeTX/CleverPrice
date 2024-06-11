@@ -54,9 +54,9 @@
 }
 body{
     width: 1728px;
-    height: 1085px;
+    height: 1080px;
     background: url("image/background.jpg") no-repeat;
-    background-size: 2110px 1085px;
+    background-size: 2110px 1080px;
     font-family: "WiGuru", sans-serif;
 
 
@@ -66,7 +66,7 @@ body{
     text-align: center;
 }
 .nameClever{
-    height: 119px;
+    height: 110px;
 }
 .main{
     padding-right: 8em;
@@ -110,7 +110,7 @@ body{
 #id_clock{
     position: relative;
     top: 85px;
-    font-size: 85px;
+    font-size: 80px;
     font-family: "ClockBomb", sans-serif;
     color: darkviolet;
     -webkit-text-stroke: 0.5px crimson;
@@ -145,4 +145,8 @@ body{
 }
 .Ded{
     width: 80%;
+}
+.womanC{
+    height: 95%;
+    margin-top: 12px;
 }
