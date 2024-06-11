@@ -89,7 +89,7 @@ body{
 }
 .price-unit{
     font-size: 62px;
-    color: #ADD8E6;
+    color: #fff59d;
     text-align: center;
     font-weight: bold;
     text-shadow: 1px 1px 0 black,
@@ -97,7 +97,7 @@ body{
     3px 3px 0 black,
     4px 4px 0 black,
     5px 5px 0 black,
-    6px 6px 0 #ADD8E6;
+    6px 6px 0 #fff59d;
     -webkit-text-stroke: 2px black;
     font-family: 'CyrillicCompressed' ;
 }
